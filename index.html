@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    /> -->
+    <title>Test5</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #navbar {
+        background-color: blue;
+        height: 55px;
+        position: sticky;
+        top: 0;
+      }
+      #logo {
+        height: 20px;
+        margin-top: 7px;
+      }
+      #s1,
+      #logo {
+        margin-left: 200px;
+      }
+      #img1 {
+        float: left;
+        width: 22%;
+      }
+      #search {
+        margin-top: 7px;
+        width: 500px;
+        height: 36px;
+        border-radius: 2px;
+        border: none;
+        outline: none;
+      }
+      #login {
+        margin-left: 150px;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        background-color: white;
+        color: blue;
+        border: none;
+        outline: none;
+      }
+      #more {
+        margin-left: 50px;
+        text-align: center;
+        color: white;
+        background-color: blue;
+        border: none;
+        outline: none;
+      }
+      .menu {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 35px;
+        border: none;
+        outline: none;
+      }
+      #time {
+        box-shadow: 0px 0px 5px black;
+        height: 50px;
+      }
+      #view {
+        height: 30px;
+        width: 75px;
+        color: white;
+        background-color: blue;
+        margin-left: 800px;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+      }
+      #allimages {
+        height: 200px;
+        width: 150px;
+        margin-left: 100px;
+      }
+      #names {
+        margin-left: 180px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="img1">
+        <img src="flipkart-plus.png" alt="logo" id="logo" /><br />
+        <span id="s1" style="color: white; font-style: italic">Explore</span
+        >&nbsp;<span id="s2" style="color: yellow; font-style: italic"
+          >Plus</span
+        >
+      </div>
+      <div id="sea">
+        <input
+          id="search"
+          type="text"
+          placeholder="&nbsp;&nbsp;Search for products, brands and more"
+        />
+        <!-- <span class="material-icons"> search </span> -->
+        <button id="login">Login</button>
+        <select id="more">
+          <option>More</option>
+          <option>Mobiles</option>
+          <option>T.V</option>
+        </select>
+      </div>
+    </div>
+    <div id="menu">
+      <select class="menu">
+        <option>Electronics</option>
+        <option>Mobiles</option>
+        <option>laptops</option>
+      </select>
+      <select class="menu">
+        <option>Tvs & Appliances</option>
+        <option>fridge</option>
+        <option>oven</option>
+      </select>
+      <select class="menu">
+        <option>Men</option>
+        <option>shirts</option>
+        <option>pants</option>
+      </select>
+      <select class="menu">
+        <option>Women</option>
+        <option>sarees</option>
+        <option>legins</option>
+      </select>
+      <select class="menu">
+        <option>Baby & kids</option>
+        <option>toys</option>
+        <option>dresses</option>
+      </select>
+      <select class="menu">
+        <option>Home & Furniture</option>
+        <option>dining table</option>
+        <option>sofa</option>
+      </select>
+      <select class="menu">
+        <option>Kitchen</option>
+        <option>stove</option>
+        <option>utensils</option>
+      </select>
+      <select class="menu">
+        <option>Sports</option>
+        <option>cricket</option>
+        <option>football</option>
+      </select>
+      <select class="menu">
+        <option>Travel</option>
+        <option>flights</option>
+        <option>train</option>
+      </select>
+    </div>
+    <div id="image"></div>
+    <img id="image1" src="image1.png" width="100%" height="300px" />
+    <div id="time">
+      <p>
+        <span>The Big Diwali Sale Ends In &nbsp;&nbsp;</span
+        ><span>19:20:10 Left</span
+        ><span><button id="view">View All</button></span>
+      </p>
+    </div>
+    <div id="items">
+      <p>
+        <img id="allimages" src="shoes.jpeg" /><img
+          id="allimages"
+          src="smartwatch.jpeg"
+        />
+        <img id="allimages" src="earbuds.jpeg" /><img
+          id="allimages"
+          src="dresses.jpeg"
+        /><img id="allimages" src="furniture.jpeg" />
+      </p>
+      <p>
+        <span id="names">Shoes</span><span id="names">Smart Watch</span
+        ><span id="names">Ear buds</span><span id="names">Dresses</span
+        ><span id="names">Furniture</span>
+      </p>
+    </div>
+  </body>
+</html>
